@@ -1,17 +1,17 @@
 import numpy as np
 import ga
 
-from mochila import mochila
+from mochila import Mochila
 
 
 def main():
 
-    saco_de_dormir = mochila('Saco de dormir', 15, 15)
-    corda = mochila('Corda', 3, 10)
-    canivete = mochila('Canivete', 2, 10)
-    tocha = mochila('Tocha', 5, 5)
-    garrafa = mochila('Garrafa', 9, 8)
-    comida = mochila('Comida', 20, 17)
+    saco_de_dormir = Mochila('Saco de dormir', 15, 15)
+    corda = Mochila('Corda', 3, 10)
+    canivete = Mochila('Canivete', 2, 10)
+    tocha = Mochila('Tocha', 5, 5)
+    garrafa = Mochila('Garrafa', 9, 8)
+    comida = Mochila('Comida', 20, 17)
 
     itens = [saco_de_dormir, corda, canivete, tocha, garrafa, comida]
 
